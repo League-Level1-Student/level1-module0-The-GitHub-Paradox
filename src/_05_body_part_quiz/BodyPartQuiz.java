@@ -63,7 +63,7 @@ public class BodyPartQuiz {
 			score++;
 			showNextImage();
 		}else {
-			System.out.println("You got it wrong, better luck on the next question!");
+			System.out.println("You got it wrong. The person is Arnold");
 			showNextImage();
 		}
 		String guess2 = JOptionPane.showInputDialog("who is this?");
@@ -72,7 +72,7 @@ public class BodyPartQuiz {
 			score++;
 			showNextImage();
 		}else {
-			System.out.println("You got it wrong, better luck on the next question!");
+			System.out.println("You got it wrong. The person is Leonardo");
 			showNextImage();
 		}
 		String guess3 = JOptionPane.showInputDialog("who is this?");
@@ -81,7 +81,7 @@ public class BodyPartQuiz {
 			score++;
 			showNextImage();
 		}else {
-			System.out.println("You got it wrong, better luck on the next question!");
+			System.out.println("You got it wrong. The person is Morgan.");
 			showNextImage();
 		}
 		String guess4 = JOptionPane.showInputDialog("who is this?");
@@ -89,7 +89,7 @@ public class BodyPartQuiz {
 			System.out.println("You got it right!");
 			score++;
 		}else {
-			System.out.println("You got it wrong, better luck on the next question!");
+			System.out.println("You got it wrong. The person is Jack.");
 		}
 		JOptionPane.showInputDialog("Your score is " + score);
 		// -- Tell them they are right and increase the score by 1
