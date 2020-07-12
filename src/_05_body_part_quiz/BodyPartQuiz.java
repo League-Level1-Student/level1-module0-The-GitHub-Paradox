@@ -63,21 +63,49 @@ public class BodyPartQuiz {
 			score++;
 			showNextImage();
 		}else {
-			System.out.println("You got it wrong. Art thou uncultured swine!");
+			System.out.println("You got it wrong, better luck on the next question!");
 			showNextImage();
 		}
+		String guess2 = JOptionPane.showInputDialog("who is this?");
+		if(guess2.contentEquals("Leonardo")) {
+			System.out.println("You got it right!");
+			score++;
+			showNextImage();
+		}else {
+			System.out.println("You got it wrong, better luck on the next question!");
+			showNextImage();
+		}
+		String guess3 = JOptionPane.showInputDialog("who is this?");
+		if(guess3.contentEquals("Morgan")) {
+			System.out.println("You got it right!");
+			score++;
+			showNextImage();
+		}else {
+			System.out.println("You got it wrong, better luck on the next question!");
+			showNextImage();
+		}
+		String guess4 = JOptionPane.showInputDialog("who is this?");
+		if(guess4.contentEquals("Jack")) {
+			System.out.println("You got it right!");
+			score++;
+			showNextImage();
+		}else {
+			System.out.println("You got it wrong, better luck on the next question!");
+			showNextImage();
+		}
+		JOptionPane.showInputDialog("Your score is " + score);
 		// -- Tell them they are right and increase the score by 1
-
+		//completed
 		// 6. Otherwise:
+		//completed
 		// -- Tell them they are wrong and who the person is
-
+		//completed
 		// 7. Use the showNextImage() method below to get the next image
-		showNextImage();
-
+		//completed
 		// 8. .... repeat 4-7 for all your images.....
-
+		
 		// 9. Show them their current score
-
+		
 	}
 
 	public void showNextImage() {
