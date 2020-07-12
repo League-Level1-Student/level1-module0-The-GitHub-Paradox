@@ -88,10 +88,8 @@ public class BodyPartQuiz {
 		if(guess4.contentEquals("Jack")) {
 			System.out.println("You got it right!");
 			score++;
-			showNextImage();
 		}else {
 			System.out.println("You got it wrong, better luck on the next question!");
-			showNextImage();
 		}
 		JOptionPane.showInputDialog("Your score is " + score);
 		// -- Tell them they are right and increase the score by 1
