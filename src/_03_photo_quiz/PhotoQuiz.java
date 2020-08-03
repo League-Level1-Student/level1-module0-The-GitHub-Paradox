@@ -4,7 +4,7 @@ package _03_photo_quiz;
  *    Level 1
  */
 
-import java.awt.Component;
+//import java.awt.Component;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -13,7 +13,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import com.sun.org.apache.xpath.internal.operations.Variable;
+//import com.sun.org.apache.xpath.internal.operations.Variable;
 
 
 
@@ -31,7 +31,7 @@ public class PhotoQuiz {
 		// â€œCopy Image Addressâ€�)
 String s = new String("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a345381a-cc8e-43f2-979c-bfcced7ae0a5/d7kjjuq-f394bcce-311a-464e-af61-bd8cd59cd476.jpg/v1/fill/w_640,h_480,q_75,strp/scp_087_b_cheshire_smile_entity_by_toonlink682_d7kjjuq-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD00ODAiLCJwYXRoIjoiXC9mXC9hMzQ1MzgxYS1jYzhlLTQzZjItOTc5Yy1iZmNjZWQ3YWUwYTVcL2Q3a2pqdXEtZjM5NGJjY2UtMzExYS00NjRlLWFmNjEtYmQ4Y2Q1OWNkNDc2LmpwZyIsIndpZHRoIjoiPD02NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.o2-c-JuDfm1UKMXtc3il7ZQaBkgRQELU7wJ9wZllFHI");
 		// 2. create a variable of type "Component" that will hold your image
-Component c;
+//Component c;
 		// 3. use the "createImage()" method below to initialize your Component
 
 		// 4. add the image to the quiz window
@@ -60,15 +60,15 @@ Component c;
 
 	}
 
-	private Component createImage(String imageUrl) throws MalformedURLException {
-		URL url = new URL(imageUrl);
-		Icon icon = new ImageIcon(url);
-		JLabel imageLabel = new JLabel(icon);
-		return imageLabel;
+	//private Component createImage(String imageUrl) throws MalformedURLException {
+		//URL url = new URL(imageUrl);
+		//Icon icon = new ImageIcon(url);
+		//JLabel imageLabel = new JLabel(icon);
+		//return imageLabel;
 	}
 
 	/* OPTIONAL */
 	// *14. add scoring to your quiz
 	// *15. make something happen when mouse enters image
 	// (imageComponent.addMouseMotionListener())
-}
+
